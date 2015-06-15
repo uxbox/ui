@@ -1,0 +1,14 @@
+{
+  "name": "uxbox-ui",
+  "version": "0.0.0",
+  "authors": [
+    "Juan de la Cruz <juan.delacruz@kaleidos.net>"
+  ],
+  "license": "BSD",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jquery": "~2.1.3"
+  }
+}

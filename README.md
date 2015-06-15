@@ -1,4 +1,4 @@
-# Uxbox UI
+# UXBOX UI
 
 UI design and development. Where the magic happens ;) 
 
@@ -19,4 +19,3 @@ npm install
 ## Project tasks
 
 To run the project, just run `gulp`. To create the project distribution, run `gulp dist`
-# ui
