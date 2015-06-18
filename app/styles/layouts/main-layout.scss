@@ -1,0 +1,24 @@
+.page-container {
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  @include bp(baby-bear) {
+    margin: 0  6%;
+  }
+
+  @include bp(mama-bear) {
+    margin: 0  10%;
+  }
+
+  @include bp(papa-bear) {
+    margin: 0  15%;
+  }
+
+  .page-content-inside {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

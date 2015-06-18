@@ -1,0 +1,31 @@
+// Margin
+$small-margin: .5rem;
+$margin: 1rem;
+$large-margin: 2rem;
+
+// Padding
+$small-padding: .5rem;
+$padding: 1rem;
+$large-padding: 2rem;
+
+// Alignments
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+// Display
+.hidden {
+    display: none;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.display {
+    opacity: 1 !important;
+}

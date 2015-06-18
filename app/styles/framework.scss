@@ -1,0 +1,266 @@
+
+// Buttons
+
+%btn {
+  align-items: stretch;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  font-size: $fs20;
+  font-weight: bold;
+  justify-content: center;
+  padding: 1rem;
+  transition: all .4s;
+  &.btn-big {
+    padding: 2rem 1rem;
+  }
+  &.btn-noshr {
+    flex-shrink: 0;
+  }
+  &.btn-small {
+    font-size: $fs18;
+    padding: .7rem 1rem;
+    line-height: 1.15;
+  }
+}
+
+.btn-primary {
+  @extend %btn;
+  align-items: center;
+  background: $color-primary;
+  color: $color-white;
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+  &:hover {
+    background: $color-primary-dark;
+    color: $color-white;
+  }
+}
+
+.btn-success {
+  @extend %btn;
+  background: $color-success;
+  color: $color-white;
+  &:hover {
+    background: $color-success-dark;
+    color: $color-white;
+  }
+}
+
+.btn-gray {
+  @extend %btn;
+  background: $color-gray;
+  color: $color-gray-dark;
+  &:hover {
+    background: $color-gray-dark;
+    color: $color-gray-darker;
+  }
+}
+
+.btn-complete {
+  @extend %btn;
+  background: $color-complete;
+  color: $color-white;
+  &:hover {
+    background: $color-complete-dark;
+    color: $color-white;
+  }
+}
+
+.btn-transparent {
+  @extend %btn;
+  background: transparent;
+  border: 2px solid $color-white;
+  color: $color-white;
+  &:hover {
+    background: $color-white;
+    color: $color-complete;;
+  }
+}
+.btn-large {
+  flex-grow: 3;
+  max-width: 400px;
+  flex-basis: 60%;
+  width: 100%;
+}
+
+.btn-option {
+  display: flex;
+  a {
+    margin-right: .5rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &.column {
+    flex-direction: column;
+    a {
+      margin-bottom: .5rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &.mr-small {
+    margin: 1rem 0;
+  }
+  &.btn-option-400 {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  &.mb {
+    margin-bottom: .5rem;
+  }
+}
+
+.btn-disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+// Slider dots
+
+ul.slider-dots {
+  align-items: center;
+  display: flex;
+
+  li {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid $color-white;
+    cursor: pointer;
+    height: 12px;
+    flex-shrink: 0;
+    margin: 6px;
+    width: 12px;
+
+    &.current,
+    &:hover {
+      background-color: $color-white;
+    }
+
+  }
+
+  &.dots-purple {
+
+    li {
+      border-color: $color-complete;
+
+      &.current,
+      &:hover {
+        background-color: $color-complete;
+      }
+
+    }
+
+  }
+
+}
+
+// Doted list
+
+.doted-list {
+
+  li {
+    align-items: center;
+    display: flex;
+    padding: $padding-small 0;
+
+    &::before {
+      background-color: $color-complete;
+      border-radius: 50%;
+      content: "";
+      flex-shrink: 0;
+      height: 10px;
+      margin-right: 6px;
+      width: 10px;
+    }
+
+    &.not-included {
+      text-decoration: line-through;
+    }
+
+  }
+
+}
+
+// Tags
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .tag  {
+    background-color: $color-gray-light;
+    border-radius: 3px;
+    color: $color-white;
+    cursor: pointer;
+    font-size: $fs14;
+    font-weight: bold;
+    margin: 0 $margin-small $margin-small 0;
+    padding: 4px 8px;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $color-gray-dark;
+    }
+
+    &.tag-primary {
+      background-color: $color-primary;
+      color: $color-white;
+
+      &:hover {
+        background-color: $color-primary-dark;
+      }
+
+    }
+
+    &.tag-green {
+      background-color: $color-success;
+      color: $color-white;
+
+      &:hover {
+        background-color: $color-success-dark;
+      }
+
+    }
+
+    &.tag-purple {
+      background-color: $color-complete;
+      color: $color-white;
+
+      &:hover {
+        background-color: $color-complete-dark;
+      }
+
+    }
+
+    &.tag-orange {
+      background-color: $color-warning;
+      color: $color-white;
+
+      &:hover {
+        background-color: $color-warning-dark;
+      }
+
+    }
+
+    &.tag-red {
+      background-color: $color-danger;
+      color: $color-white;
+
+      &:hover {
+        background-color: $color-danger-dark;
+      }
+
+    }
+
+  }
+
+}
