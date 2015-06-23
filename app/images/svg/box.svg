@@ -1,0 +1,17 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="500" height="500" viewBox="0 0 500.00001 500.00001" id="svg2" version="1.1" sodipodi:docname="box.svg">
+  <defs id="defs4"/>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" showgrid="false" units="px"/>
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>
+          
+          image/svg+xml
+        
+        </dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path d="M0 500 0 477.77344 0 0 500 0 500 500 0 500Zm44.453125-44.45312 411.093755 0 0-411.093755-411.093755 0 0 411.093755z" id="rect4138" style="baseline-shift:baseline;block-progression:tb;clip-rule:nonzero;color-interpolation-filters:linearRGB;color-interpolation:sRGB;color-rendering:auto;color:#000000;direction:ltr;display:inline;enable-background:accumulate;fill-opacity:1;fill-rule:nonzero;fill:#000;font-family:sans-serif;font-size:medium;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;image-rendering:auto;isolation:auto;letter-spacing:normal;line-height:normal;marker:none;mix-blend-mode:normal;opacity:1;overflow:visible;shape-rendering:auto;solid-color:#000000;solid-opacity:1;text-align:start;text-anchor:start;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-decoration:none;text-indent:0;text-rendering:auto;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;writing-mode:lr-tb"/>
+</svg>
