@@ -1,24 +1,12 @@
-.page-container {
-  background-color: $color-white;
+.dashboard-main {
   display: flex;
-  flex-direction: column;
-  position: relative;
+  height: 100%;
 
-  @include bp(baby-bear) {
-    margin: 0  6%;
-  }
-
-  @include bp(mama-bear) {
-    margin: 0  10%;
-  }
-
-  @include bp(papa-bear) {
-    margin: 0  15%;
-  }
-
-  .page-content-inside {
+  .dashboard-content {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
 
 }

@@ -23,5 +23,10 @@
 @import 'framework';
 
 //#################################################
-// Sections
+// Partials
 //#################################################
+
+@import 'partials/main-bar';
+@import 'partials/dashboard-bar';
+@import 'partials/dashboard-grid';
+@import 'partials/activity-bar';

@@ -1,0 +1,9 @@
+.activity-bar {
+  align-items: center;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 90px);
+  padding: $medium;
+  width: 250px;
+}
