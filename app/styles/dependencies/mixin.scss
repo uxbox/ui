@@ -95,7 +95,7 @@
 /// @parameter $style [normal] - With this variable you can add a font style to this specific font. EX: Italic
 
 @mixin font-face($style-name, $file, $weight: unquote("normal"), $style: unquote("normal") ) {
-    $filepath: "/assets/fonts/" + $file;
+    $filepath: "/fonts/" + $file;
     @font-face {
         font-family: "#{$style-name}";
         src: url($filepath + ".eot");

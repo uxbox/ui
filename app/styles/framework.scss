@@ -7,7 +7,7 @@
   border-radius: 3px;
   cursor: pointer;
   display: flex;
-  font-size: $fs20;
+  font-size: $fs18;
   font-weight: bold;
   justify-content: center;
   padding: 1rem;
@@ -19,7 +19,7 @@
     flex-shrink: 0;
   }
   &.btn-small {
-    font-size: $fs18;
+    font-size: $fs16;
     padding: .7rem 1rem;
     line-height: 1.15;
   }
@@ -166,7 +166,7 @@ ul.slider-dots {
   li {
     align-items: center;
     display: flex;
-    padding: $padding-small 0;
+    padding: $small 0;
 
     &::before {
       background-color: $color-complete;
@@ -203,7 +203,7 @@ ul.slider-dots {
     cursor: pointer;
     font-size: $fs14;
     font-weight: bold;
-    margin: 0 $margin-small $margin-small 0;
+    margin: 0 $small $small 0;
     padding: 4px 8px;
     text-transform: uppercase;
 
