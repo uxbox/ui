@@ -86,18 +86,18 @@ strong {
 }
 
 h1 {
-  font-size: $fs28;
+  font-size: $fs34;
   font-weight: 500;
   line-height: $title-lh-sm;
 
   @include bp(baby-bear) {
-    font-size: $fs34;
+    font-size: $fs38;
     line-height: $title-lh;
   }
 
   &.supertitle {
-    font-size: $fs34;
-    font-weight: 500;
+    font-size: $fs44;
+    font-weight: 300;
     line-height: $title-lh-sm;
 
     @include bp(baby-bear) {
@@ -109,26 +109,26 @@ h1 {
 
 }
 h2 {
-  font-size: $fs19;
-  font-weight: 500;
+  font-size: $fs24;
+  font-weight: 300;
   line-height: $title-lh-sm;
 
   @include bp(baby-bear) {
-    font-size: $fs24;
+    font-size: $fs32;
     line-height: $title-lh;
   }
 
 }
 
 h3 {
-  font-size: $fs19;
-  font-weight: 500;
+  font-size: $fs24;
+  font-weight: 300;
   padding: .5rem 0;
 }
 
 h4 {
-  font-size: $fs16;
-  font-weight: 500;
+  font-size: $fs18;
+  font-weight: 300;
 }
 
 .bp-desktop {
