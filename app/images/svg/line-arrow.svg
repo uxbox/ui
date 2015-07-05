@@ -5,13 +5,13 @@
     <rdf:RDF>
       <cc:Work rdf:about="">
         <dc:format>
-          
+
           image/svg+xml
-        
+
         </dc:format>
         <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path d="M500 0.39481055 295.46558 43.828097 377.48387 89.961899-6e-7 467.44576 32.159425 499.60519 407.6179 124.14671 449.4601 212.82547 500 0.39481055Z" id="path4163" style="baseline-shift:baseline;block-progression:tb;clip-rule:nonzero;color-interpolation-filters:linearRGB;color-interpolation:sRGB;color-rendering:auto;color:#000000;direction:ltr;display:inline;enable-background:accumulate;fill-opacity:1;fill-rule:evenodd;fill:#000;font-family:sans-serif;font-size:medium;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;image-rendering:auto;isolation:auto;letter-spacing:normal;line-height:normal;mix-blend-mode:normal;opacity:1;overflow:visible;shape-rendering:auto;solid-color:#000000;solid-opacity:1;text-align:start;text-anchor:start;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-decoration:none;text-indent:0;text-rendering:auto;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;writing-mode:lr-tb"/>
+  <path d="M500 0.39481055 295.46558 43.828097 377.48387 89.961899-6e-7 467.44576 32.159425 499.60519 407.6179 124.14671 449.4601 212.82547 500 0.39481055Z" id="path4163"/>
 </svg>

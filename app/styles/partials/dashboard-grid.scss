@@ -61,6 +61,11 @@
 
         &:hover {
           border-color: $color-primary;
+
+          h3 {
+            color: $color-primary;
+          }
+
         }
 
         h3 {

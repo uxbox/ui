@@ -5,13 +5,13 @@
     <rdf:RDF>
       <cc:Work rdf:about="">
         <dc:format>
-          
+
           image/svg+xml
-        
+
         </dc:format>
         <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path d="M250 0C112.19189 0 0 112.19189 0 250 0 387.80811 112.19189 500 250 500 387.80811 500 500 387.80811 500 250 500 112.19189 387.80811 0 250 0Zm0 44.419922C363.80145 44.419922 455.58008 136.19855 455.58008 250 455.58008 363.80145 363.80145 455.58008 250 455.58008 136.19855 455.58008 44.419922 363.80145 44.419922 250 44.419922 136.19855 136.19855 44.419922 250 44.419922Z" id="path4134" style="baseline-shift:baseline;block-progression:tb;clip-rule:nonzero;color-interpolation-filters:linearRGB;color-interpolation:sRGB;color-rendering:auto;color:#000000;direction:ltr;display:inline;enable-background:accumulate;fill-opacity:1;fill-rule:nonzero;fill:#000;font-family:sans-serif;font-size:medium;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;image-rendering:auto;isolation:auto;letter-spacing:normal;line-height:normal;marker:none;mix-blend-mode:normal;opacity:1;overflow:visible;shape-rendering:auto;solid-color:#000000;solid-opacity:1;text-align:start;text-anchor:start;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-decoration:none;text-indent:0;text-rendering:auto;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;writing-mode:lr-tb"/>
+  <path d="M250 0C112.19189 0 0 112.19189 0 250 0 387.80811 112.19189 500 250 500 387.80811 500 500 387.80811 500 250 500 112.19189 387.80811 0 250 0Zm0 44.419922C363.80145 44.419922 455.58008 136.19855 455.58008 250 455.58008 363.80145 363.80145 455.58008 250 455.58008 136.19855 455.58008 44.419922 363.80145 44.419922 250 44.419922 136.19855 136.19855 44.419922 250 44.419922Z" id="path4134"/>
 </svg>
