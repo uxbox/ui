@@ -4,9 +4,10 @@
   display: flex;
   height: 50px;
   padding: $x-small $medium;
+  z-index: 10;
 
   .main-logo {
-    
+
     svg {
       fill: $color-white;
       height: 40px;

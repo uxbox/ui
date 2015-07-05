@@ -4,7 +4,7 @@
   flex-direction: column;
   font-size: $fs14;
   height: 100%;
-  padding: $medium;
+  padding: $medium 250px $medium $medium;
 
   .dashboard-grid-content {
     align-items: center;
@@ -70,6 +70,7 @@
 
         h3 {
           color: $color-gray-darker;
+          font-weight: 400;
         }
 
         .project-th-update {
@@ -87,10 +88,14 @@
           width: 100%;
 
           svg {
-            fill: $color-gray;
+            fill: $color-gray-light;
             height: 14px;
             margin-right: 5px;
             width: 14px;
+          }
+
+          span {
+            color: $color-gray-light;
           }
 
           .project-th-icon {
@@ -98,13 +103,18 @@
             display: flex;
             margin-right: $small;
 
-            &.comments {
-
-            }
-
             &.delete {
               margin-left: auto;
               margin-right: 0;
+
+              svg {
+                fill: $color-danger;
+              }
+
+              &:hover {
+                transform: scale(1.4);
+              }
+
             }
 
           }

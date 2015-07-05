@@ -1,9 +1,35 @@
 .activity-bar {
-  align-items: center;
   background-color: $color-white;
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 90px);
-  padding: $medium;
+  bottom: 0;
+  height: 100%;
+  position: fixed;
+  right: 0;
   width: 250px;
+
+  .activity-bar-inside {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 70px;
+  }
+
+  h4 {
+    color: $color-gray-dark;
+    font-size: $fs16;
+    font-weight: bold;
+    margin-bottom: $x-small;
+  }
+
+  .date-ribbon {
+    background-color: lighten($color-gray-light, 12%);
+    box-sizing: border-box;
+    color: $color-white;
+    font-size: $fs12;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+  }
+
 }
