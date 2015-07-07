@@ -18,7 +18,7 @@
 
     .grid-item {
       align-items: center;
-      border-radius: 5px;
+      border-radius: $br-medium;
       cursor: pointer;
       display: flex;
       flex-direction: column;

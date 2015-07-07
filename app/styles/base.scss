@@ -8,7 +8,7 @@ body {
 }
 
 * {
-  transition: all .3s ease;
+  transition: all .4s ease;
 }
 
 .global-zeroclipboard-container {
@@ -39,7 +39,7 @@ svg {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 1px rgba(0,0,0,.6);
+  box-shadow: 0;
 }
 
 
@@ -131,43 +131,6 @@ h4 {
   font-weight: 300;
 }
 
-.bp-desktop {
-  display: block !important;
-
-  @include bp(mama-bear) {
-    display: none !important;
-  }
-
-  &.bp-flex {
-    display: flex !important;
-
-    @include bp(mama-bear) {
-      display: none !important;
-    }
-
-  }
-
-}
-
-
-.bp-tablet {
-  display: none !important;
-
-  @include bp(mama-bear) {
-    display: block !important;
-  }
-
-  &.bp-flex {
-    display: none !important;
-
-    @include bp(mama-bear) {
-      display: flex !important;
-    }
-
-  }
-
-}
-
 @-webkit-keyframes rotation {
     from {-webkit-transform: rotate(0deg);}
     to   {-webkit-transform: rotate(359deg);}
@@ -250,3 +213,8 @@ $small: 10px;
 $medium: 15px;
 $big: 20px;
 $x-big: 30px;
+
+// Border radius
+$br-small: 3px;
+$br-medium: 5px;
+$br-big: 8px;
