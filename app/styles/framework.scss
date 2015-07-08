@@ -305,6 +305,7 @@ select {
   font-family: "sourcesanspro", sans-serif;
   font-size: $fs16;
   margin-bottom: $medium;
+  -moz-appearance: none;
 }
 
 input[type="radio"],
