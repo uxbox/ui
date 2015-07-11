@@ -1,0 +1,19 @@
+doctype html
+html
+  include layouts/head.jade
+
+  body
+    
+    div.login
+      div.login-body
+        include ../images/svg/uxbox-logo.svg
+        div.login-content
+          input(type="email", placeholder="Email", name="email").input-text
+          input(type="password", placeholder="Password", name="password").input-text
+          div.input-checkbox.check-primary
+            input(type="checkbox", value="1", id="checkbox1")
+            label(for="checkbox1") Keep Me Signed in
+          input(type="submit", value="Continue", name="login").btn-primary
+          div.login-links
+            a(href="#") Forgot your password?
+            a(href="#") Don't have an account?
