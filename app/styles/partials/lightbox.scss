@@ -19,6 +19,7 @@
     padding: $medium;
     position: relative;
     width: 500px;
+    @include animation(.1s,1s,fadeInDown);
 
     .input-text {
       margin: 1rem 0;

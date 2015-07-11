@@ -21,14 +21,14 @@
       height: 70px;
       margin-bottom: $x-big;
       width: 200px;
-      @include animation(.1s,1s,fadeInDown);
+      @include animation(.1s,1.5s,fadeInDown);
     }
 
     .login-content {
       display: flex;
       flex-direction: column;
       width: 320px;
-      @include animation(1s, 1s, fadeIn);
+      @include animation(1s,1s,fadeIn);
 
       .input-text {
         background-color: transparent;
