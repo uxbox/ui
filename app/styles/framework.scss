@@ -305,6 +305,7 @@ select {
   font-family: "sourcesanspro", sans-serif;
   font-size: $fs16;
   margin-bottom: $medium;
+  -webkit-appearance: none;
   -moz-appearance: none;
 }
 
@@ -357,7 +358,7 @@ input[type="checkbox"]:focus {
     color: $color-success-dark;
   }
 
-  &.invalid {
+  &.error {
     background-color: $color-danger-lighter;
     border-color: $color-danger;
     color: $color-danger-dark;
