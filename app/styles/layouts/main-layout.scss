@@ -1,4 +1,4 @@
-.dashboard-main {
+.main-content {
   display: flex;
   height: 100%;
   position: relative;
@@ -6,6 +6,12 @@
   .dashboard-content {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .workspace-content {
+    display: flex;
     height: 100%;
     width: 100%;
   }

@@ -17,6 +17,14 @@
       margin-left: $small;
     }
 
+    .input-select {
+      background-color: transparent;
+      border-color: $color-gray;
+      margin-bottom: 0;
+      margin-left: $medium;
+      padding: 3px 15px 3px 3px;
+    }
+
   }
 
   .dashboard-search {
