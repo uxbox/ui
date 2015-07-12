@@ -1,3 +1,65 @@
 aside.settings-bar#settings-bar
   div.settings-bar-inside
-  
+    
+    div.tool-window#form-tools
+      div.tool-window-bar
+        div.tool-window-icon
+          include ../../images/svg/forms.svg
+        span Tools
+        div.tool-window-close
+          include ../../images/svg/plus.svg
+      div.tool-window-content
+        div.tool-btn.selected
+          include ../../images/svg/box.svg
+        div.tool-btn
+          include ../../images/svg/circle.svg
+        div.tool-btn
+          include ../../images/svg/line.svg
+        div.tool-btn
+          include ../../images/svg/curve.svg
+        div.tool-btn
+          include ../../images/svg/text.svg
+        div.tool-btn
+          include ../../images/svg/line-arrow.svg
+
+    div.tool-window#layers
+      div.tool-window-bar
+        div.tool-window-icon
+          include ../../images/svg/layers.svg
+        span Elements
+        div.tool-window-close
+          include ../../images/svg/plus.svg
+      div.tool-window-content
+        ul.element-list
+          li.selected
+            div.toggle-element
+              include ../../images/svg/eye.svg
+            div.block-element
+              include ../../images/svg/lock.svg
+            div.element-icon
+              include ../../images/svg/box.svg
+            span Box 1
+          li
+            div.toggle-element.selected
+              include ../../images/svg/eye.svg
+            div.block-element.selected
+              include ../../images/svg/lock.svg
+            div.element-icon
+              include ../../images/svg/circle.svg
+            span Circle 1
+          li
+            div.toggle-element
+              include ../../images/svg/eye.svg
+            div.block-element.selected
+              include ../../images/svg/lock.svg
+            div.element-icon
+              include ../../images/svg/line.svg
+            span Line 1
+          li
+            div.toggle-element
+              include ../../images/svg/eye.svg
+            div.block-element
+              include ../../images/svg/lock.svg
+            div.element-icon
+              include ../../images/svg/box.svg
+            span Box 2
